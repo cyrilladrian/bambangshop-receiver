@@ -85,5 +85,17 @@ This is the place for you to write reflections:
 ### Mandatory (Subscriber) Reflections
 
 #### Reflection Subscriber-1
+##### Question 1 
+`RwLock<>`, or Read-Write Lock, allows multiple threads to read the data at the same time, but only one thread to write the data (with no concurrent readers). `Mutex<>`, or Mutual Exclusion, allows only one thread to access the data at a time, whether for reading or writing. 
+
+##### Question 2
+Modifying a static variable isn't advisable as it results in code complexity, making it difficult to comprehend and maintain. Moreover, limiting mutability enhances thread safety when handling variables. 
 
 #### Reflection Subscriber-2
+##### Question 1
+I haven't delved into anything beyond the tutorial steps. My reasoning is to prioritize mastering the tutorial's implementation and ensuring its successful completion before exploring additional topics.
+##### Question 2
+Adding additional subscribers is as simple as creating a new subscriber implementation, all without needing to adjust the publisher. Similarly, if we create multiple instances of the Main app, integrating them into the system remains relatively straightforward.
+
+##### Question 3
+I haven't made new tests or improved the documentations.
